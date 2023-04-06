@@ -24,7 +24,7 @@
 
 <body>
     <table
-        style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
             <tr style="padding:0px">
                 <td style="padding:0px">
@@ -93,13 +93,148 @@
                             <table
                                 style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                                 <tbody>
+
+                                    <tr>
+                                        <td style="padding:5%;width:25%;vertical-align:middle">
+                                            <div class="one">
+                                                <img src='images/sportpose_start.gif' width="220">
+                                            </div>
+                                        </td>
+                                        <td style="padding:20px;width:60%;max-width:60%;vertical-align: middle;">
+                                            <a href="https://christianingwersen.github.io/SportsPose/">
+                                                <papertitle>SportsPose - A Dynamic 3D sports pose dataset</papertitle>
+                                            </a> <br>
+                                            <hr>
+                                            <a href="https://christianingwersen.github.io/"> <strong>Christian Keilstrup
+                                                    Ingwersen</strong></a>, &nbsp Christian Mikkelstrup, Janus Nørtoft
+                                            Jensen, Morten Rieger
+                                            Hannemose, and Anders Bjorholm Dahl
+
+
+                                            <br>
+                                            <em>CVPRW</em>, 2023. <br>
+                                            <!-- <a href="https://sagiebenaim.github.io/volumetric-disentanglement/">project
+                                                page</a> / -->
+                                            <a href="https://arxiv.org/abs/2304.01865">Paper</a> &nbsp/&nbsp <a
+                                                href="https://github.com/ChristianIngwersen/SportsPose">Code</a>
+                                            &nbsp/&nbsp <a
+                                                href="https://christianingwersen.github.io/SportsPose/">Project Page</a>
+                                            <p></p>
+                                            <p>
+                                                With SportsPose we introduce a large marker-less 3D pose dataset,
+                                                specifically targeted at sports movement. To see more visit our
+                                                project page. The paper is accepted for an oral presentation
+                                                at the 2023 CVPR workshop, Computer Vision in sports
+                                            </p>
+                                            <br>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style=" padding:5%;width:25%;vertical-align:middle">
+                                            <div class="one">
+                                                <img src='images/eval_pose.png' width="210"
+                                                    style="background-color: rgb(254, 254, 254);">
+                                            </div>
+                                        </td>
+                                        <td style="padding:20px;width:60%;max-width:60%;vertical-align: middle;">
+                                            <a href="https://septentrio.uit.no/index.php/nldl/article/view/6281">
+                                                <papertitle>Evaluating current state of monocular 3D pose models for
+                                                    golf</papertitle>
+                                            </a> <br>
+                                            <hr>
+                                            <a href="https://christianingwersen.github.io/"> <strong>Christian Keilstrup
+                                                    Ingwersen</strong></a>, &nbsp Janus Nørtoft Jensen, Morten Rieger
+                                            Hannemose, and Anders Bjorholm Dahl
+
+                                            <br>
+                                            <em>NLDL</em>, 2023. <br>
+                                            <!-- <a href="https://sagiebenaim.github.io/volumetric-disentanglement/">project
+                                                page</a> / -->
+                                            <a
+                                                href="https://septentrio.uit.no/index.php/nldl/article/view/6793">Paper</a>
+                                            <p></p>
+                                            <p>
+                                                We investigate current state-of-the art monocular 3D human pose
+                                                estimation methods ability to predict
+                                                temporally consistent poses in a domain with high
+                                                frequency movements. Our investigation is based on accurate marker based
+                                                motion capture data, with synchronized video
+                                                of athletes performing golf swings. When qualitatively inspecting the
+                                                methods estimated 3D joint locations, and projecting
+                                                them into the image, the results look convincing. However, by
+                                                quantitatively comparing the results to the motion capture
+                                                data, we see that the model errors are significant, and too erroneous to
+                                                be used for any kinematic analysis of the movements.
+                                                The paper is accepted for an oral presentation at NLDL 2023.
+                                            </p>
+                                            <br>
+                                        </td>
+                                    </tr>
+
+                                    <tr onmouseout="meshcnn_stop()" onmouseover="meshcnn_start()">
+                                        <td style="padding:5%;width:25%;vertical-align:middle">
+                                            <div class="one">
+                                                <div class="two" id='meshcnn_image'>
+                                                    <img src='images/mesh_after.png' width="200"
+                                                        style="background-color: rgb(254, 254, 254);">
+                                                </div>
+                                                <img src='images/meshnn_start.png' width="200"
+                                                    style="background-color: rgb(255, 255, 255);">
+                                            </div>
+                                            <script type="text/javascript">
+                                                function meshcnn_start() {
+                                                    document.getElementById('meshcnn_image').style.opacity = "1";
+                                                }
+
+                                                function meshcnn_stop() {
+                                                    document.getElementById('meshcnn_image').style.opacity = "0";
+                                                }
+                                                meshcnn_stop()
+                                            </script>
+                                        </td>
+                                        <td style="padding:20px;width:60%;max-width:60%;vertical-align: middle;">
+                                            <a href="https://septentrio.uit.no/index.php/nldl/article/view/6281">
+                                                <papertitle>SparseMeshCNN with Self-Attention for Segmentation of Large
+                                                    Meshes</papertitle>
+                                            </a> <br>
+                                            <hr>
+                                            Bjørn Hansen, Mathias Lowes, Thomas Ørkild, Anders
+                                            Bjorholm Dahl, Vedrana Dahl, Ole de Backer, Oscar Camara,
+                                            Rasmus Paulsen, Kristine Sørensen, and
+                                            <a href="https://christianingwersen.github.io/"> <strong>Christian Keilstrup
+                                                    Ingwersen</strong></a>
+
+                                            <br>
+                                            <em>NLDL</em>, 2022. <br>
+                                            <!-- <a href="https://sagiebenaim.github.io/volumetric-disentanglement/">project
+                                                page</a> / -->
+                                            <a
+                                                href="https://septentrio.uit.no/index.php/nldl/article/view/6281">Paper</a>
+                                            <p></p>
+                                            <p>
+                                                Extension of the sparse model of MeshCNN I developed as a research
+                                                intern at 3Shape. In this paper we illustrate how the
+                                                model allows us to segment the left atrial appendage from the heart in a
+                                                3D reconstruction of a heart. The work was presented as a poster
+                                                presentation at Northern Lights Deep Learning
+                                                Conference 2022.
+                                            </p>
+                                            <br>
+                                        </td>
+                                    </tr>
+
+
+
                                     <tr onmouseout="focus_calib_stop()" onmouseover="focus_calib_start()">
-                                        <td style="padding:5%;width:25%;vertical-align:text-top">
+                                        <td style="padding:5%;width:25%;vertical-align:middle">
                                             <div class="one">
                                                 <div class="two" id='focus_image'>
-                                                    <img src='images/focus_after.png' width="160">
+                                                    <img src='images/focus_after.png' width="210"
+                                                        style="background-color: rgb(254, 254, 254);">
                                                 </div>
-                                                <img src='images/focus_before.png' width="160">
+                                                <img src='images/focus_before.png' width="210"
+                                                    style="background-color: rgb(255, 255, 255);">
                                             </div>
                                             <script type="text/javascript">
                                                 function focus_calib_start() {
@@ -112,30 +247,31 @@
                                                 focus_calib_stop()
                                             </script>
                                         </td>
-                                        <td style="padding:20px;width:50%;max-width:50%;vertical-align: middle;">
+                                        <td style="padding:20px;width:50%;max-width:60%;vertical-align: middle;">
                                             <a href="https://www2.imm.dtu.dk/pubdb/pubs/7106-full.html">
-                                                Computer vision for focus calibration of
-                                                photo-polymerization
-                                                systems
+                                                <papertitle>Computer vision for focus calibration of
+                                                    photo-polymerization systems</papertitle>
                                             </a> <br>
+                                            <hr>
+                                            <a href="https://christianingwersen.github.io/"> <strong>Christian Keilstrup
+                                                    Ingwersen</strong></a>,&nbsp
                                             <a
                                                 href="https://www.linkedin.com/in/harald-l%C3%B8venskjold-mortensen-2a6a56166/">
-                                                Harald L. Mortensen</a>,
+                                                Harald L. Mortensen</a>, &nbsp
                                             <a href="https://scholar.google.dk/citations?user=bH8lUHIAAAAJ&hl=en">
-                                                Macarena M. Ribo</a>,
+                                                Macarena M. Ribo</a>, &nbsp
                                             <a href="https://orbit.dtu.dk/en/persons/anna-danielak"> Anna H.
-                                                Danielak</a>
+                                                Danielak</a>, &nbsp
                                             <a href="https://scholar.google.dk/citations?user=eRAiA4oAAAAJ&hl=en">
-                                                Eythor R. Eiriksson</a>
+                                                Eythor R. Eiriksson</a>, &nbsp
                                             <a href="http://www.imm.dtu.dk/~alan/"> Allan A. Nielsen</a>
                                             <a href="https://orbit.dtu.dk/en/persons/david-bue-pedersen"> David B.
                                                 Pedersen</a>
                                             <br>
-                                            <em>ASPE</em>, 2018.
+                                            <em>ASPE</em>, 2018. <br>
                                             <!-- <a href="https://sagiebenaim.github.io/volumetric-disentanglement/">project
                                                 page</a> / -->
-                                            <a href="https://www2.imm.dtu.dk/pubdb/pubs/7106-full.html">Link to
-                                                paper</a>
+                                            <a href="https://www2.imm.dtu.dk/pubdb/pubs/7106-full.html">Paper</a>
                                             <p></p>
                                             <p>
                                                 We presented a fully automated solution for focus calibration of a
@@ -143,6 +279,7 @@
                                                 as an oral presentation at ASPE/euspen Summer Topical Meeting on
                                                 Advancing Precision in Additive Manufacturing.
                                             </p>
+                                            <br>
                                         </td>
                                     </tr>
 
